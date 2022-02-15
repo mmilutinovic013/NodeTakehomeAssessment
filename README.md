@@ -21,7 +21,7 @@ The repo includes the Dockerfile and docker-compose.yml necessary to set up the 
 
 2) Clone the github repository:
    ```
-   git clone https://github.com/OWASP/NodeGoat.git
+   git clone https://github.com/mmilutinovic013/NodeTakehomeAssessment.git
    ```
 
 3) Go to the directory:
@@ -41,11 +41,11 @@ The repo includes the Dockerfile and docker-compose.yml necessary to set up the 
 
 ### OPTION 2 - Run Node Takehome Assessment on your machine
 
-1) Install [Node.js](http://nodejs.org/) - NodeGoat requires Node v8 or above
+1) Install [Node.js](http://nodejs.org/) - Node Takehome Assessment requires Node v8 or above
 
 2) Clone the github repository:
    ```
-   git clone https://github.com/OWASP/NodeGoat.git
+   git clone https://github.com/mmilutinovic013/NodeTakehomeAssessment.git
    ```
 
 3) Go to the directory:
@@ -96,7 +96,7 @@ The repo includes the Dockerfile and docker-compose.yml necessary to set up the 
 #### Customizing the Default Application Configuration
 By default the application will be hosted on port 4000 and will connect to a MongoDB instance at localhost:27017. To change this set the environment variables `PORT` and `MONGODB_URI`.
 
-Other settings can be changed by updating the [config file](https://github.com/OWASP/NodeGoat/blob/master/config/env/all.js).
+Other settings can be changed by updating the [config file](https://github.com/mmilutinovic013/NodeTakehomeAssessment/blob/master/config/env/all.js).
 
 ### OPTION 3 - Deploy to Heroku
 
